@@ -499,13 +499,14 @@ it also can be solved tith the full path to Node.js and the installed package:
 ```toml
 [mcp_servers.context7]
 command = "/Users/yourname/.nvm/versions/node/v22.14.0/bin/node"  # Node.js full path
-args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@upstash/context7-mcp/dist/index.js",  
+args = ["/Users/yourname/.nvm/versions/node/v22.14.0/lib/node_modules/@upstash/context7-mcp/dist/index.js",
   "--transport",
   "stdio",
   "--api-key",
   "YOUR_API_KEY"
 ]
 ```
+
 This ensures Codex CLI works reliably on MacOS.
 
 </details>
